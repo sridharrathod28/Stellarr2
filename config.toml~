@@ -1,0 +1,31 @@
+baseURL = "https://sridharrathod28.github.io/Stellarr2"
+title = "VibeVerse Events"
+theme = ""
+languageCode = "en-us"
+defaultContentLanguage = "en"
+paginate = 10
+[params]
+  description = "VibeVerse - Where Music Lives"
+  author = "Team VibeVerse"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Events"
+    url = "/events/"
+    weight = 2
+  [[menu.main]]
+    name = "Artists"
+    url = "/artists/"
+    weight = 3
+  [[menu.main]]
+    name = "Gallery"
+    url = "/gallery/"
+    weight = 4
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
